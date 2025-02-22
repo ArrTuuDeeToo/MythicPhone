@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
-import { makeStyles } from '@material-ui/styles';
-import { ListItem, ListItemText } from '@material-ui/core';
+import { makeStyles } from '@mui/styles';
+import { ListItem, ListItemText } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({

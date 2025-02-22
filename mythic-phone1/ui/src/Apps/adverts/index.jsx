@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { connect, useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
-import { Tabs, Tab } from '@material-ui/core';
-import { makeStyles, withStyles } from '@material-ui/styles';
-import { Fab } from '@material-ui/core';
-import { Add as AddIcon, Delete as DeleteIcon } from '@material-ui/icons';
+import { Tabs, Tab } from '@mui/material';
+import { makeStyles, withStyles } from '@mui/styles';
+import { Fab } from '@mui/material';
+import { Add as AddIcon, Delete as DeleteIcon } from '@mui/icons-material';
 
 import Latest from './Latest';
 import Categories from './Categories';

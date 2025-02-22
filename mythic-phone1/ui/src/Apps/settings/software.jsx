@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import { Fade, Slide } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Fade, Slide } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 
 import vers1 from '../../vers/2.gif';
 

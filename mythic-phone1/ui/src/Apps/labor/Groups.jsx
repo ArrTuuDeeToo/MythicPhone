@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
-import { Tooltip, AppBar, IconButton } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Tooltip, AppBar, IconButton } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Nui from '../../util/Nui';

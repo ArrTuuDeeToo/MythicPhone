@@ -4,8 +4,8 @@ import { useHistory } from 'react-router-dom';
 import {
 	Fab,
 	TextField,
-} from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+} from '@mui/material';
+import { makeStyles } from '@mui/styles';
 
 import { Confirm } from '../../components';
 import Contact from './contact';

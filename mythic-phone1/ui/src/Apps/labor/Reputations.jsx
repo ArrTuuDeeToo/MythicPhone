@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
-import { Tooltip, IconButton } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Tooltip, IconButton } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { Loader } from '../../components';

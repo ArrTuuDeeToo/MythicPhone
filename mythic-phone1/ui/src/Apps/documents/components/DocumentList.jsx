@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
-import { makeStyles } from '@material-ui/styles';
-import { List } from '@material-ui/core';
+import { makeStyles } from '@mui/styles';
+import { List } from '@mui/material';
 
 import Document from './Document';
 

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { connect, useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
-import { Avatar, Grid, Button, IconButton } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
-import { red } from '@material-ui/core/colors';
+import { Avatar, Grid, Button, IconButton } from '@mui/material';
+import { makeStyles } from '@mui/styles';
+import { red } from '@mui/material/colors';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Moment from 'react-moment';
 

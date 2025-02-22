@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Tabs, Tab, IconButton } from '@material-ui/core';
-import { makeStyles, withStyles } from '@material-ui/styles';
+import { Tabs, Tab, IconButton } from '@mui/material';
+import { makeStyles, withStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useHistory } from 'react-router';
 

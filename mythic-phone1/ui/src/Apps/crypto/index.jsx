@@ -7,8 +7,8 @@ import {
     Grid,
     Tooltip,
     IconButton,
-} from '@material-ui/core';
-import { makeStyles, withStyles } from '@material-ui/styles';
+} from '@mui/material';
+import { makeStyles, withStyles } from '@mui/styles';
 import { throttle } from 'lodash';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 

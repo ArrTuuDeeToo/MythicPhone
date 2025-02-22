@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
-import { Fab } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Fab } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 
 import { Modal } from '../../components';
 import Message from './message';

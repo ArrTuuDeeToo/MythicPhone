@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { makeStyles } from '@material-ui/styles';
-import { Button, Grid } from '@material-ui/core';
+import { makeStyles } from '@mui/styles';
+import { Button, Grid } from '@mui/material';
 import mexp from 'math-expression-evaluator';
 
 const useStyles = makeStyles((theme) => ({

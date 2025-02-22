@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { ListItem, ListItemText } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { ListItem, ListItemText } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { throttle } from 'lodash';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 

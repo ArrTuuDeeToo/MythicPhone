@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { Grid, Alert } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Grid, Alert } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 
 import { useMyApps } from '../../hooks';
 import AppNotif from './components/AppNotif';

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { connect, useSelector } from 'react-redux';
-import { AppBar, Grid, List } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { AppBar, Grid, List } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { CurrencyFormat, Sanitize } from '../../util/Parser';

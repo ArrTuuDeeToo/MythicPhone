@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
-import { TextField, Grid } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { TextField, Grid } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 
 import { useMyApps } from '../../hooks';
 import App from './App';

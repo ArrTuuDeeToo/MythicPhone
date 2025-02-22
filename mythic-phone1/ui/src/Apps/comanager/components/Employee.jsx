@@ -7,8 +7,8 @@ import {
 	Avatar,
 	Tooltip,
 	ListItemSecondaryAction,
-} from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+} from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { useJobPermissions, useMyJob } from '../../../hooks';

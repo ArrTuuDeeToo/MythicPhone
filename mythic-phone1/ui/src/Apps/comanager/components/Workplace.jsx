@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { List, ListItem, ListItemText } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { List, ListItem, ListItemText } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 
 import Employee from './Employee';
 

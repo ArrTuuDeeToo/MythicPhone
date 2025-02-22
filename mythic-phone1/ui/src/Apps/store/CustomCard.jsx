@@ -1,8 +1,8 @@
 import React from 'react';
-import { Card, CardContent, CardMedia, Typography, IconButton, CircularProgress } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Card, CardContent, CardMedia, Typography, IconButton, CircularProgress } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { green, red } from '@material-ui/core/colors';
+import { green, red } from '@mui/material/colors';
 
 const useStyles = makeStyles((theme) => ({
   card: {

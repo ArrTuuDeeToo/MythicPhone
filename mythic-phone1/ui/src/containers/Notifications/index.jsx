@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { compose } from 'redux';
 import { connect, useSelector } from 'react-redux';
 import { withRouter } from 'react-router-dom';
-import { Slide } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Slide } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import Moment from 'react-moment';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 

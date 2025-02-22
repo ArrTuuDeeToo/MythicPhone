@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { makeStyles, withStyles } from '@material-ui/styles';
+import { makeStyles, withStyles } from '@mui/styles';
 import { useHistory } from 'react-router-dom';
 import {
 	AppBar,
@@ -10,7 +10,7 @@ import {
 	List,
 	Tab,
 	Tabs,
-} from '@material-ui/core';
+} from '@mui/material';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { throttle } from 'lodash';
 

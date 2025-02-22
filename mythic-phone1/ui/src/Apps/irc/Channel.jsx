@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { useHistory } from 'react-router-dom';
-import { Grid, Avatar, Paper } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Grid, Avatar, Paper } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import Moment from 'react-moment';
 
 const useStyles = makeStyles((theme) => ({

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Fade, TextField, Button } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Fade, TextField, Button } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import Typist from 'react-typist';
 
 import Nui from '../../../util/Nui';

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Slide } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Slide } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import Loadable from 'react-loadable';
 import { Route, Switch, Redirect, useHistory } from 'react-router';
 import { withRouter } from 'react-router-dom';

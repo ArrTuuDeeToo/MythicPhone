@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { connect, useSelector } from 'react-redux';
-import { Paper } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Paper } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 
 import { UpdateSetting } from '../actions';
 import { useAlert } from '../../../hooks';

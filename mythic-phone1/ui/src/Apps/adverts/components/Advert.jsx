@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect, useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
-import { Grid, Paper, IconButton } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Grid, Paper, IconButton } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Moment from 'react-moment';
 import NumberFormat from 'react-number-format';

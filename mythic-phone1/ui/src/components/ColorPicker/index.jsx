@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button, DialogActions } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Button, DialogActions } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { TwitterPicker } from 'react-color';
 
 import {
@@ -18,7 +18,7 @@ import {
 	lightBlue,
 	deepOrange,
 	deepPurple,
-} from '@material-ui/core/colors';
+} from '@mui/material/colors';
 
 const colors = [
 	grey[500],

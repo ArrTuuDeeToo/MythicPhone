@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
-import { AppBar, Grid, Chip, IconButton } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { AppBar, Grid, Chip, IconButton } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import ReactPlayer from 'react-player';

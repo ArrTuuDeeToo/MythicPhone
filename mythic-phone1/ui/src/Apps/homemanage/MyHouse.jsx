@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Tabs, Tab } from '@material-ui/core';
-import { makeStyles, withStyles } from '@material-ui/styles';
+import { Tabs, Tab } from '@mui/material';
+import { makeStyles, withStyles } from '@mui/styles';
 
 import Furniture from './pages/Furniture';
 import Keys from './pages/Keys';

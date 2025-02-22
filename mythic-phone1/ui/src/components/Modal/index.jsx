@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import { DialogActions, IconButton, Button } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { DialogActions, IconButton, Button } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const useStyles = makeStyles((theme) => ({

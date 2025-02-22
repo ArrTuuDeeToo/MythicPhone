@@ -13,7 +13,7 @@ import {
     lightBlue,
     deepOrange,
     deepPurple,
-} from '@material-ui/core/colors';
+} from '@mui/material/colors';
 
 export const Categories = [
     {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { Avatar, Paper, Button, Typography, IconButton } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Avatar, Paper, Button, Typography, IconButton } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShareAlt } from '@fortawesome/free-solid-svg-icons'; // Import a sharing icon
 

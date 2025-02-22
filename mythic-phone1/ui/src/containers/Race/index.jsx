@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useStopwatch } from 'react-use-stopwatch';
-import { Slide, Grid } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Slide, Grid } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import useCountDown from 'react-countdown-hook';
 import parseMilliseconds from 'parse-ms';
 

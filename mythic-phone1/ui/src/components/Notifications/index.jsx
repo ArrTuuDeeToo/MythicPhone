@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
-import { Grid, Slide } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Grid, Slide } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import Moment from 'react-moment';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 

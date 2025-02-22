@@ -10,8 +10,8 @@ import {
 	MenuItem,
 	Slider,
 	Tooltip,
-} from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+} from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { debounce } from 'lodash';
 import NumberFormat from 'react-number-format';
 

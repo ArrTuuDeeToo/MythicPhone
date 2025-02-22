@@ -1,9 +1,9 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import {  AppBar, IconButton, Grid, Tooltip, ImageList, ImageListItem, ImageListItemBar } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import {  AppBar, IconButton, Grid, Tooltip, ImageList, ImageListItem, ImageListItemBar } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { FileCopy, Delete } from '@material-ui/icons';
+import { FileCopy, Delete } from '@mui/icons-material';
 import Nui from '../../util/Nui';
 import { throttle } from 'lodash';
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { makeStyles, withStyles } from '@material-ui/styles';
+import { makeStyles, withStyles } from '@mui/styles';
 import { throttle } from 'lodash';
 import {
     Tabs,
@@ -9,7 +9,7 @@ import {
     Grid,
     IconButton,
     Tooltip,
-} from '@material-ui/core';
+} from '@mui/material';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Loans from './Loans';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect, useSelector } from 'react-redux';
-import { makeStyles } from '@material-ui/styles';
-import { blue, orange } from '@material-ui/core/colors';
+import { makeStyles } from '@mui/styles';
+import { blue, orange } from '@mui/material/colors';
 
 import Version from './components/Version';
 import SoundSelect from './components/SoundSelect';

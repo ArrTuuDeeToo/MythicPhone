@@ -10,8 +10,8 @@ import {
 	Paper,
 	IconButton,
 	Tooltip,
-} from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+} from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import Moment from 'react-moment';
 import { Sanitize } from '../../util/Parser';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

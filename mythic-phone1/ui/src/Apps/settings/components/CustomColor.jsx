@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
-import { Grid, Paper, Avatar } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Grid, Paper, Avatar } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { Modal, ColorPicker } from '../../../components';

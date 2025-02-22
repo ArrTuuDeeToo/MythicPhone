@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
-import { AppBar, Grid, Chip, Select, MenuItem, IconButton, Tooltip, TextField, FormControlLabel, Checkbox } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { AppBar, Grid, Chip, Select, MenuItem, IconButton, Tooltip, TextField, FormControlLabel, Checkbox } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 //const processString = require('react-process-string');
 import { CopyToClipboard } from 'react-copy-to-clipboard';

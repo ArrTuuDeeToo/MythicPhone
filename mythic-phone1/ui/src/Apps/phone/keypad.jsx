@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { IconButton, InputBase, Button, Grid } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { IconButton, InputBase, Button, Grid } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faTimes, faStar, faClock, faAddressBook, faTh } from '@fortawesome/free-solid-svg-icons';
 

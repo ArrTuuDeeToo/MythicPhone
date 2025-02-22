@@ -11,8 +11,8 @@ import {
 	FormGroup,
 	FormControlLabel,
 	Paper,
-} from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+} from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import InputMask from 'react-input-mask';
 import { updateContact } from './actions';

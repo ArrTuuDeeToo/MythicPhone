@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { AppBar, Grid, Tooltip, IconButton } from '@material-ui/core';
+import { AppBar, Grid, Tooltip, IconButton } from '@mui/material';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { makeStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
 import { throttle } from 'lodash';
 import Truncate from 'react-truncate';
 

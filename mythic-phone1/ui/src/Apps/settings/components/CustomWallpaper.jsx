@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { connect, useSelector } from 'react-redux';
-import { Paper, TextField, CircularProgress, Alert } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Paper, TextField, CircularProgress, Alert } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import axios from 'axios';
 

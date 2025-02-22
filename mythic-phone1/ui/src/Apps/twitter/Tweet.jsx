@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
-import { Grid, Avatar } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Grid, Avatar } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import processString from 'react-process-string';
 import { CopyToClipboard } from 'react-copy-to-clipboard';

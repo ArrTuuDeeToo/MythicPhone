@@ -1,10 +1,10 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { Grid, CircularProgress, Fab, Avatar, Paper } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Grid, CircularProgress, Fab, Avatar, Paper } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { green, red, yellow } from '@material-ui/core/colors';
+import { green, red, yellow } from '@mui/material/colors';
 
 import { install, uninstall } from './action';
 

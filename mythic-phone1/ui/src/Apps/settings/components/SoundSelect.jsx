@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { connect } from 'react-redux';
-import { Grid, Fade, Paper, Avatar, Button } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Grid, Fade, Paper, Avatar, Button } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const useStyles = makeStyles((theme) => ({

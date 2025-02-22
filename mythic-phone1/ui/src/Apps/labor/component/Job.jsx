@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Grid, Paper, Button } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Grid, Paper, Button } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Nui from '../../../util/Nui';
 import { useAlert } from '../../../hooks';

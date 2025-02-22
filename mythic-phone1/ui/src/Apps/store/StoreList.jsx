@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { TextField, Grid, Paper, Typography, Fab, Avatar } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { TextField, Grid, Paper, Typography, Fab, Avatar } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { useMyApps } from '../../hooks';

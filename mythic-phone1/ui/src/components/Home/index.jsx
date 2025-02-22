@@ -6,8 +6,8 @@ import {
 	MenuItem,
 	Avatar,
 	Badge,
-} from '@material-ui/core';
-import { makeStyles, withStyles } from '@material-ui/styles';
+} from '@mui/material';
+import { makeStyles, withStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import {

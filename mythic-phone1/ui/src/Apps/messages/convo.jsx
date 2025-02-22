@@ -10,8 +10,8 @@ import {
 	Avatar,
 	Paper,
 	IconButton,
-} from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+} from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const processString = require('react-process-string');
 import { CopyToClipboard } from 'react-copy-to-clipboard';

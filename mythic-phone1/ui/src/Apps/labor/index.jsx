@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Tabs, Tab } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Tabs, Tab } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { throttle } from 'lodash';
 
 import Nui from '../../util/Nui';

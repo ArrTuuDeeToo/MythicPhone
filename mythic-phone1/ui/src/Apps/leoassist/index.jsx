@@ -1,8 +1,8 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
-import { Tabs, Tab } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Tabs, Tab } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 
 import Notifications from './Notifications';
 import Person from './Person';

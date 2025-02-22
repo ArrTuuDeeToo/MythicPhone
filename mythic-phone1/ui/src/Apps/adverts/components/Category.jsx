@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect, useSelector } from 'react-redux';
-import { Grid, IconButton, Zoom, Paper } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Grid, IconButton, Zoom, Paper } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useHistory } from 'react-router-dom';
 

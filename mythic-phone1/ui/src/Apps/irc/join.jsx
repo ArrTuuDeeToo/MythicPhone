@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { connect, useDispatch, useSelector } from 'react-redux';
-import { AppBar, Grid, TextField } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { AppBar, Grid, TextField } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const processString = require('react-process-string');
 import { CopyToClipboard } from 'react-copy-to-clipboard';

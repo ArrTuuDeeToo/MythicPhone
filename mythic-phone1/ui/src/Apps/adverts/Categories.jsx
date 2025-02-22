@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { connect, useSelector } from 'react-redux';
-import { Tabs, Tab } from '@material-ui/core';
-import { makeStyles } from '@material-ui/styles';
+import { Tabs, Tab } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { Categories } from './data';
